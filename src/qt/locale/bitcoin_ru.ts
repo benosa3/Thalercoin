@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Unobtanium</source>
-        <translation>&amp;О Unobtanium</translation>
+        <source>About Thalercoin</source>
+        <translation>&amp;О Thalercoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Unobtanium&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Unobtanium&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;Thalercoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Thalercoin&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Unobtanium developers</source>
-        <translation>Разработчики Unobtanium</translation>
+        <source>The Thalercoin developers</source>
+        <translation>Разработчики Thalercoin</translation>
     </message>
 </context>
 <context>
@@ -67,7 +67,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Unobtanium addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Thalercoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -82,8 +82,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Unobtanium address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Unobtanium</translation>
+        <source>Sign a message to prove you own a Thalercoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Thalercoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Unobtanium address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Unobtanium</translation>
+        <source>Verify a message to ensure it was signed with a specified Thalercoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Thalercoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,7 +122,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Unobtanium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Thalercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Ваши адреса для получения средств. Совет: проверьте сумму и адрес назначения перед переводом.</translation>
     </message>
     <message>
@@ -275,7 +275,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Unobtanium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your unobtaniums from being stolen by malware infecting your computer.</source>
+        <source>Thalercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your thalercoins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши биткоины от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -374,8 +374,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Unobtanium</source>
-        <translation>Показать информацию о Unobtanium&apos;е</translation>
+        <source>Show information about Thalercoin</source>
+        <translation>Показать информацию о Thalercoin&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Unobtanium address</source>
-        <translation>Отправить монеты на указанный адрес Unobtanium</translation>
+        <source>Send coins to a Thalercoin address</source>
+        <translation>Отправить монеты на указанный адрес Thalercoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Unobtanium</source>
-        <translation>Изменить параметры конфигурации Unobtanium</translation>
+        <source>Modify configuration options for Thalercoin</source>
+        <translation>Изменить параметры конфигурации Thalercoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,7 +455,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Unobtanium</source>
+        <source>Thalercoin</source>
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -480,8 +480,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Unobtanium</source>
-        <translation>&amp;О Unobtanium</translation>
+        <source>&amp;About Thalercoin</source>
+        <translation>&amp;О Thalercoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Unobtanium addresses to prove you own them</source>
-        <translation>Подписать сообщения вашим адресом Unobtanium, чтобы доказать, что вы им владеете</translation>
+        <source>Sign messages with your Thalercoin addresses to prove you own them</source>
+        <translation>Подписать сообщения вашим адресом Thalercoin, чтобы доказать, что вы им владеете</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Unobtanium addresses</source>
-        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом Unobtanium</translation>
+        <source>Verify messages to ensure they were signed with specified Thalercoin addresses</source>
+        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом Thalercoin</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,12 +536,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>Unobtanium client</source>
-        <translation>Unobtanium клиент</translation>
+        <source>Thalercoin client</source>
+        <translation>Thalercoin клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Unobtanium network</source>
+        <source>%n active connection(s) to Thalercoin network</source>
         <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform></translation>
     </message>
     <message>
@@ -656,8 +656,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Unobtanium address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Unobtanium или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Thalercoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Thalercoin или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Unobtanium can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. Unobtanium не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. Thalercoin can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. Thalercoin не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Unobtanium address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным Unobtanium-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Thalercoin address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным Thalercoin-адресом.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Unobtanium-Qt</source>
-        <translation>Unobtanium-Qt</translation>
+        <source>Thalercoin-Qt</source>
+        <translation>Thalercoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Unobtanium after logging in to the system.</source>
-        <translation>Автоматически запускать Unobtanium после входа в систему</translation>
+        <source>Automatically start Thalercoin after logging in to the system.</source>
+        <translation>Автоматически запускать Thalercoin после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Unobtanium on system login</source>
-        <translation>&amp;Запускать Unobtanium при входе в систему</translation>
+        <source>&amp;Start Thalercoin on system login</source>
+        <translation>&amp;Запускать Thalercoin при входе в систему</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Unobtanium client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для Unobtanium-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the Thalercoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для Thalercoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Unobtanium network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Подключаться к сети Unobtanium через прокси SOCKS (например, при подключении через Tor).</translation>
+        <source>Connect to the Thalercoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Подключаться к сети Thalercoin через прокси SOCKS (например, при подключении через Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Unobtanium.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Unobtanium.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Thalercoin.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Thalercoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Unobtanium addresses in the transaction list or not.</source>
-        <translation>Показывать ли адреса Unobtanium в списке транзакций.</translation>
+        <source>Whether to show Thalercoin addresses in the transaction list or not.</source>
+        <translation>Показывать ли адреса Thalercoin в списке транзакций.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Unobtanium.</source>
-        <translation>Эта настройка вступит в силу после перезапуска Unobtanium</translation>
+        <source>This setting will take effect after restarting Thalercoin.</source>
+        <translation>Эта настройка вступит в силу после перезапуска Thalercoin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Unobtanium network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Unobtanium после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Thalercoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Thalercoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start unobtanium: click-to-pay handler</source>
-        <translation>Не удаётся запустить unobtanium: обработчик click-to-pay</translation>
+        <source>Cannot start thalercoin: click-to-pay handler</source>
+        <translation>Не удаётся запустить thalercoin: обработчик click-to-pay</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Unobtanium-Qt help message to get a list with possible Unobtanium command-line options.</source>
-        <translation>Показать помощь по Unobtanium-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the Thalercoin-Qt help message to get a list with possible Thalercoin command-line options.</source>
+        <translation>Показать помощь по Thalercoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Unobtanium - Debug window</source>
-        <translation>Unobtanium - Окно отладки</translation>
+        <source>Thalercoin - Debug window</source>
+        <translation>Thalercoin - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Unobtanium Core</source>
-        <translation>Ядро Unobtanium</translation>
+        <source>Thalercoin Core</source>
+        <translation>Ядро Thalercoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Unobtanium debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл Unobtanium из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the Thalercoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл Thalercoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Unobtanium RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль Unobtanium.</translation>
+        <source>Welcome to the Thalercoin RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль Thalercoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Unobtanium address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Введите Unobtanium-адрес (например 1LA5FtQhnnWnkK6zjFfutR7Stiit4wKd63)</translation>
+        <source>Enter a Thalercoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Введите Thalercoin-адрес (например 1LA5FtQhnnWnkK6zjFfutR7Stiit4wKd63)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Unobtanium address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Unobtanium</translation>
+        <source>Sign the message to prove you own this Thalercoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Thalercoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Unobtanium address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Unobtanium</translation>
+        <source>Verify the message to ensure it was signed with the specified Thalercoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Thalercoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Unobtanium address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Введите адрес Unobtanium (напр. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Thalercoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Введите адрес Thalercoin (напр. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Unobtanium signature</source>
-        <translation>Введите подпись Unobtanium</translation>
+        <source>Enter Thalercoin signature</source>
+        <translation>Введите подпись Thalercoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+25"/>
-        <source>The Unobtanium developers</source>
-        <translation>Разработчики Unobtanium</translation>
+        <source>The Thalercoin developers</source>
+        <translation>Разработчики Thalercoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,7 +2187,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Unobtanium version</source>
+        <source>Thalercoin version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2197,8 +2197,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or unobtaniumd</source>
-        <translation>Отправить команду на -server или unobtaniumd</translation>
+        <source>Send command to -server or thalercoind</source>
+        <translation>Отправить команду на -server или thalercoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2218,13 +2218,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: unobtanium.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: unobtanium.conf)</translation>
+        <source>Specify configuration file (default: thalercoin.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: thalercoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: unobtaniumd.pid)</source>
-        <translation>Задать pid-файл (по умолчанию: unobtanium.pid)</translation>
+        <source>Specify pid file (default: thalercoind.pid)</source>
+        <translation>Задать pid-файл (по умолчанию: thalercoin.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2301,24 +2301,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=unobtaniumrpc
+rpcuser=thalercoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Unobtanium Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Thalercoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, вы должны установить опцию rpcpassword в конфигурационном файле:
  %s
 Рекомендуется использовать следующий случайный пароль:
-rpcuser=unobtaniumrpc
+rpcuser=thalercoinrpc
 rpcpassword=%s
 (вам не нужно запоминать этот пароль)
 Имя и пароль ДОЛЖНЫ различаться.
 Если файл не существует, создайте его и установите права доступа только для владельца, только для чтения.
 Также рекомендуется включить alertnotify для оповещения о проблемах;
-Например: alertnotify=echo %%s | mail -s &quot;Unobtanium Alert&quot; admin@foo.com
+Например: alertnotify=echo %%s | mail -s &quot;Thalercoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2333,8 +2333,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Unobtanium is probably already running.</source>
-        <translation>Не удаётся установить блокировку на каталог данных %s.  Возможно, Unobtanium уже работает.</translation>
+        <source>Cannot obtain a lock on data directory %s. Thalercoin is probably already running.</source>
+        <translation>Не удаётся установить блокировку на каталог данных %s.  Возможно, Thalercoin уже работает.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2378,8 +2378,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Unobtanium will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Unobtanium будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Thalercoin will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Thalercoin будет работать некорректно.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2628,9 +2628,9 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Unobtanium Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the Thalercoin Wiki for SSL setup instructions)</source>
         <translation>
-Параметры SSL: (см. Unobtanium Wiki для инструкций по настройке SSL)</translation>
+Параметры SSL: (см. Thalercoin Wiki для инструкций по настройке SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2819,13 +2819,13 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Unobtanium</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Unobtanium</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Thalercoin</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Thalercoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Unobtanium to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите Unobtanium для завершения операции.</translation>
+        <source>Wallet needed to be rewritten: restart Thalercoin to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите Thalercoin для завершения операции.</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2884,8 +2884,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Unobtanium is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Unobtanium уже работает.</translation>
+        <source>Unable to bind to %s on this computer. Thalercoin is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Thalercoin уже работает.</translation>
     </message>
     <message>
         <location line="+64"/>

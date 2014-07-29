@@ -147,10 +147,10 @@ OBJS= \
     obj/chainparams.o
 
 
-all: unobtaniumd
+all: thalercoind
 
-test check: test_unobtanium FORCE
-	./test_unobtanium
+test check: test_thalercoin FORCE
+	./test_thalercoin
 
 #
 # LevelDB support
@@ -178,7 +178,7 @@ obj/%.o: %.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-unobtaniumd: $(OBJS:obj/%=obj/%)
+thalercoind: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -190,11 +190,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_unobtanium: $(TESTOBJS) $(filter-out obj/init.o obj/unobtaniumd.o,$(OBJS:obj/%=obj/%))
+test_thalercoin: $(TESTOBJS) $(filter-out obj/init.o obj/thalercoind.o,$(OBJS:obj/%=obj/%))
 	$(LINK) $(xCXXFLAGS) -o $@ $(LIBPATHS) $^ $(TESTLIBS) $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f unobtaniumd test_unobtanium
+	-rm -f thalercoind test_thalercoin
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

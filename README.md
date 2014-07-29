@@ -1,4 +1,4 @@
-Unobtanium 0.9.0 [Un]
+Thalercoin 0.9.0 [Un]
 
 Proof of Work SHA256D Cryptocurrency based on Bitcoin 0.8.99
 

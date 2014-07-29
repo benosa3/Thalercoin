@@ -21,15 +21,23 @@ USE_UPNP:=-
 USE_IPV6:=1
 
 DEPSDIR?=/usr/local
-BOOST_SUFFIX?=-mgw46-mt-s-1_52
+BOOST_SUFFIX?=-mgw49-mt-s-1_55
 
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
- -I"$(DEPSDIR)/include"
+ -I"$(DEPSDIR)/include" \
+ -I"C:\deps\boost_1_55_0"  \
+ -I"C:\deps\openssl-1.0.1e\include"  \
+ -I"C:\deps\db-4.8.30.NC\build_unix" \
+ -I"C:\deps"
 
 LIBPATHS= \
  -L"$(CURDIR)/leveldb" \
- -L"$(DEPSDIR)/lib"
+ -L"$(DEPSDIR)/lib" \
+ -L"C:\deps\miniupnpc" \
+ -L"C:\deps\db-4.8.30.NC\build_unix" \
+ -L"C:\deps\openssl-1.0.1e" \
+ -L"C:\deps\boost_1_55_0\stage\lib"
 
 LIBS= \
  -l leveldb \
@@ -105,10 +113,10 @@ OBJS= \
     obj/chainparams.o
 
 
-all: unobtaniumd.exe
+all: thalercoind.exe
 
-test check: test_unobtanium.exe FORCE
-	test_unobtanium.exe
+test check: test_thalercoin.exe FORCE
+	test_thalercoin.exe
 
 #
 # LevelDB support
@@ -122,7 +130,7 @@ leveldb/libleveldb.a:
 obj/%.o: %.cpp $(HEADERS)
 	$(CXX) -c $(CFLAGS) -o $@ $<
 
-unobtaniumd.exe: $(OBJS:obj/%=obj/%)
+thalercoind.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -130,11 +138,11 @@ TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
 obj-test/%.o: test/%.cpp $(HEADERS)
 	$(CXX) -c $(TESTDEFS) $(CFLAGS) -o $@ $<
 
-test_unobtanium.exe: $(TESTOBJS) $(filter-out obj/init.o obj/unobtaniumd.o,$(OBJS:obj/%=obj/%))
+test_thalercoin.exe: $(TESTOBJS) $(filter-out obj/init.o obj/thalercoind.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework$(BOOST_SUFFIX) $(LIBS)
 
 clean:
-	rm -f unobtaniumd.exe test_unobtanium.exe
+	rm -f thalercoind.exe test_thalercoin.exe
 	rm -f obj/*
 	rm -f obj-test/*
 	cd leveldb && $(MAKE) TARGET_OS=NATIVE_WINDOWS clean && cd ..

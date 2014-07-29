@@ -16,26 +16,26 @@
 
 unsigned int pnSeed[] =
 {
-    0x12345678
+    0x054f53ab, 0xb288fe30,
 };
 
 class CMainParams : public CChainParams {
 public:
     CMainParams() {
         // The message start string is designed to be unlikely to occur in normal data.
-        pchMessageStart[0] = 0x03;
-        pchMessageStart[1] = 0xd5;
-        pchMessageStart[2] = 0xb5;
-        pchMessageStart[3] = 0x03;
-        nDefaultPort = 65534;
-        nRPCPort = 65535;
+        pchMessageStart[0] = 0xaa;
+        pchMessageStart[1] = 0xbb;
+        pchMessageStart[2] = 0xcc;
+        pchMessageStart[3] = 0xdd;
+        nDefaultPort = 5530;
+        nRPCPort = 5531;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
-        nSubsidyHalvingInterval = 100000;
+        nSubsidyHalvingInterval = 1;
 
         // Build the genesis block. Note that the output of the genesis coinbase cannot
         // be spent as it did not originally exist in the database.
   
-        const char* pszTimestamp = "San Francisco plaza evacuated after suspicious package is found";
+        const char* pszTimestamp = "Thalercoin it's my coin!";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -46,14 +46,14 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1375548986;
+        genesis.nTime    = 1406624332;
         genesis.nBits    = 0x1e0fffff;
-        genesis.nNonce   = 1211565;
+        genesis.nNonce   = 1059568;
         
         //// debug print
         hashGenesisBlock = genesis.GetHash();
         //while (hashGenesisBlock > bnProofOfWorkLimit.getuint256()){
-        //    if (++genesis.nNonce==0) break;
+        //   if (++genesis.nNonce==0) break;
         //    hashGenesisBlock = genesis.GetHash();
         //}
 
@@ -63,10 +63,10 @@ public:
         genesis.print();
         
         
-        assert(hashGenesisBlock == uint256("0x000004c2fc5fffb810dccc197d603690099a68305232e552d96ccbe8e2c52b75"));
-        assert(genesis.hashMerkleRoot == uint256("0x36a192e90f70131a884fe541a1e8a5643a28ba4cb24cbb2924bd0ee483f7f484"));
+        assert(hashGenesisBlock == uint256("0x000001f64a0a3f0b38ed57ef8a9b205532fcd687908332fc17944bfba481f9a8"));
+        assert(genesis.hashMerkleRoot == uint256("0xb2c0974e83da6b3f6297a09e6f86d269ff7c81d41c7dabd1efa5baef3b59a5b8"));
 
-        vSeeds.push_back(CDNSSeedData("rockchain.info", "rockchain.info"));
+        vSeeds.push_back(CDNSSeedData("yaltakino.com", "yaltakino.com"));
 
 
         base58Prefixes[PUBKEY_ADDRESS] = 130;
@@ -117,8 +117,8 @@ public:
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1374901773;
-        genesis.nNonce = 1211565;
+        genesis.nTime = 1406624332;
+        genesis.nNonce = 1059568;
         
         
         //// debug print
@@ -134,7 +134,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        // vSeeds.push_back(CDNSSeedData("unobtanium.test", "test.unobtanium.org"));
+        // vSeeds.push_back(CDNSSeedData("thalercoin.test", "test.thalercoin.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 130;
         base58Prefixes[SCRIPT_ADDRESS] = 30;
@@ -158,9 +158,9 @@ public:
         pchMessageStart[3] = 0x5a;
         nSubsidyHalvingInterval = 150;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 1);
-        genesis.nTime = 1296688602;
-        genesis.nBits = 0x207fffff;
-        genesis.nNonce = 3;
+        genesis.nTime = 1406624332;
+        genesis.nBits = 0x1e0fffff;
+        genesis.nNonce = 1059568;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 18444;
         strDataDir = "regtest";

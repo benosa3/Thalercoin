@@ -35,7 +35,7 @@ bool AppInit(int argc, char* argv[])
         //
         // Parameters
         //
-        // If Qt is used, parameters/unobtanium.conf are parsed in qt/bitcoin.cpp's main()
+        // If Qt is used, parameters/thalercoin.conf are parsed in qt/bitcoin.cpp's main()
         ParseParameters(argc, argv);
         if (!boost::filesystem::is_directory(GetDataDir(false)))
         {
@@ -46,13 +46,13 @@ bool AppInit(int argc, char* argv[])
 
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
-            // First part of help message is specific to unobtaniumd / RPC client
-            std::string strUsage = _("Unobtanium version") + " " + FormatFullVersion() + "\n\n" +
+            // First part of help message is specific to thalercoind / RPC client
+            std::string strUsage = _("Thalercoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  unobtaniumd [options]                     " + "\n" +
-                  "  unobtaniumd [options] <command> [params]  " + _("Send command to -server or unobtaniumd") + "\n" +
-                  "  unobtaniumd [options] help                " + _("List commands") + "\n" +
-                  "  unobtaniumd [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  thalercoind [options]                     " + "\n" +
+                  "  thalercoind [options] <command> [params]  " + _("Send command to -server or thalercoind") + "\n" +
+                  "  thalercoind [options] help                " + _("List commands") + "\n" +
+                  "  thalercoind [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -62,7 +62,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "unobtanium:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "thalercoin:"))
                 fCommandLine = true;
 
         if (fCommandLine)
@@ -129,7 +129,7 @@ int main(int argc, char* argv[])
     bool fRet = false;
     fHaveGUI = false;
 
-    // Connect unobtaniumd signal handlers
+    // Connect thalercoind signal handlers
     noui_connect();
 
     fRet = AppInit(argc, argv);
